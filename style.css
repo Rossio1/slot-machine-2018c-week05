@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  text-align: center;
+  background-color: gold;
+}
+button{
+  border: 1px solid white;
+  border-radius: 50px;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 25px 80px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  box-shadow: 0 6px white;
+  transition: none;
+
+}
+
+.msgBoard{
+  height: 80px;
+}
+.msgBoard h2{
+  height: 50px;
+}
+.msgBoard span{
+  font-size: 20px;
+}
+
+.reels{
+  width: 30%;
+  float: left;
+  border: 1px solid black;
+  margin: 50px 1.5%;
+}
+
+.reels img{
+  width: 100%;
+  height: 400px;
+  background-color: gold;
+}
